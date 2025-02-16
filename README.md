@@ -1,1 +1,56 @@
-# valentines.github.io
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>LOVE SITE</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="link_button.css">
+
+    <style type="text/css">
+        #knopka {
+            font-family: 'Comic Sans MS';
+            font-size: 25px;
+            background-color: #ffffff;
+            display: inline;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            outline: none;
+            width: 60px;
+            height: 40px;
+            border-radius: 10px;
+            position: absolute;
+            left: 50%;
+            top: 53%;
+        }
+    </style>
+    <script language="JavaScript">
+    function pryg_skok() {
+            document.getElementById("knopka").style.left = Math.random() * 500 + "px";
+            document.getElementById("knopka").style.top = Math.random() * 500 + "px";
+        }</script>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Ты будешь моей валентинкой?</h1>
+    <br>
+    <br>
+    <br>
+
+    <img src="https://i.pinimg.com/originals/c2/4f/d0/c24fd037705f74f56f5768db4914334b.gif" alt="я джифка">
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="index2.html">Да</a>
+    <input type=button id="knopka" value="Нет" onMouseOver="pryg_skok()" onClick="alert('Вау, ты все-таки нажал!!!')">
+</body>
+</html>
