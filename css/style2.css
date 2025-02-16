@@ -1,0 +1,16 @@
+﻿body {
+    background-image: url("https://i.pinimg.com/originals/5c/00/1a/5c001a1afe5287f05618ecbde25c309a.gif");
+    background-size: 100%;
+    text-align: center;
+}
+h1 {
+    font-family: 'Comic Sans MS';
+    font-size: 30px;
+    background-color: #fac0dc;
+    display: inline;
+}
+p {
+    font-family: 'Comic Sans MS';
+    font-size: 30px;
+    background-color: #fac0dc;
+}
